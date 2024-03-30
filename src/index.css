@@ -5,17 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.App{
-  border: 2px solid black;
-}
+
 .general_info{
-  border: 2px solid red;
+  border: 2px solid black;
   width: 40%;
   margin: auto;
 }
@@ -29,4 +28,32 @@ code {
 .general_info form button{
   background-color:green
   color( red green blue)
+}
+.educational_info{
+  width: 40%;
+  margin: auto;
+  border: 2px solid black;
+}
+.educational_info h2{
+  text-align: center;
+}
+.educational_info form{
+  display: flex;
+  flex-direction: column;
+}
+.practical_info{
+  width: 40%;
+  margin: auto;
+border: 2px solid black;
+}
+.practical_info form{
+  display: flex;
+  flex-direction: column;
+}
+.practical_info  button{
+  width: 30%;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
